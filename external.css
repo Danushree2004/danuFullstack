@@ -1,0 +1,16 @@
+
+body
+{
+    background-color: cadetblue;
+    padding:400px;
+    margin: auto;
+    border:2px solid black;
+
+}
+div>ol{
+    font-style: oblique;
+}
+nav ul{
+    color:darkblue;
+    font-size: 20px;
+}
