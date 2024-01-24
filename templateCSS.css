@@ -1,0 +1,85 @@
+
+h3,h5
+{
+    align-items: center;
+    border-width:1px; 
+    border-style:groove;
+    border:2px solid rgb(233, 156, 124);
+    background-color: rgb(91, 136, 146);
+}
+.flex
+{   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.items
+{
+    padding:20px;
+}
+.image1 {
+    width: 200px;
+    height: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.cls2
+{
+    align-items: center;
+    display:inline-grid;
+    margin-left: 300px;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+}
+.item1{
+    border:2px solid rgb(226, 75, 24);
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+.cls3
+{
+    align-items: center;
+    display:inline-grid;
+    margin-left: 150px;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+}
+.cls4
+{
+    align-items: center;
+    display:inline-grid;
+    margin-left: 150px;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+}
+.grid
+{
+    margin: 5px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    text-align: center;
+   
+}
+.grid1
+{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    text-align: center;
+   
+}
+div.cls4{
+    background-color: antiquewhite;
+}
+div.grid{
+    background-color: bisque;
+}
